@@ -14,7 +14,7 @@ import java.io.InputStreamReader;
 public class FileEchoer extends HttpServlet {
   
     @Override
-    protected void doPut(HttpServletRequest request, HttpServletResponse response)
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
       
         	InputStream ins = null; // raw byte-stream
