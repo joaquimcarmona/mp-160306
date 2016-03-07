@@ -17,6 +17,8 @@ public class FileEchoer extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
       
+        	response.setContentType("text/plain");
+      		response.getWriter().println("Hello, this is a testing servlet. \n\n");
         	System.out.println("A");
         	InputStream ins = null; // raw byte-stream
 		Reader r = null; // cooked reader
