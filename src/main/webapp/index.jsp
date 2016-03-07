@@ -10,7 +10,7 @@
     <body> 
         <div>
             <h3> Choose File to Echo in Server </h3>
-            <form action="echo" method="put" enctype="text/plain">
+            <form action="echo" method="post" enctype="text/plain">
                 <div><textarea name="filename" rows="1" cols="60"></textarea></div>
                 <div><input type="submit" value="echo" /></div>
             </form>          
